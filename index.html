@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Hiburan Tradisional Indonesia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url(img/bg.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            background-color: #ae7e0d;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #ae7e0d;
+            padding: 0.5rem 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        h2 {
+            color: #f9f9f9;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 2rem;
+        }
+
+        .image-container img {
+    width: 300px;
+    height: 250px;
+    object-fit: fill;
+}
+
+        .button {
+            display: block;
+            background-color: #f44336;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 2rem auto;
+        }
+
+        footer {
+            background-color: #ae7e0d;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav li {
+                display: block;
+                margin: 0.5rem 0;
+            }
+
+            .image-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Website Hiburan Tradisional Indonesia</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">KONTAK</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Selamat Datang di Website Hiburan Tradisional Indonesia!</h2>
+            <p>Indonesia kaya akan seni dan budaya yang unik, mulai dari tarian tradisional, teater rakyat seperti lenong, pertunjukan sirkus lokal, hingga berbagai jenis hiburan khas daerah lainnya. Melalui platform ini, kami ingin mengajak masyarakat, khususnya generasi muda, untuk lebih mengenal dan mencintai seni hiburan tradisional yang sarat akan nilai sejarah, filosofi, dan kearifan lokal. Kami berharap website ini dapat menjadi jendela informasi yang berguna bagi semua pengunjung dalam memahami dan menghargai keberagaman budaya Indonesia. Kritik dan saran yang membangun sangat kami harapkan untuk terus menyempurnakan konten yang kami sajikan. Terima kasih kami ucapkan kepada semua pihak yang telah mendukung pembuatan website ini. Semoga website ini dapat bermanfaat bagi pelestarian seni hiburan Indonesia dan menjadi referensi yang berharga bagi siapa saja yang ingin mengetahui lebih dalam tentang kekayaan budaya negeri kita. Selamat menikmati dan mari bersama-sama lestarikan hiburan tradisional Indonesia!</p>
+        </section>
+
+        <section class="image-container">
+            <div>
+                <img src="img/bali_dance.jpg" alt="Gambar 1">
+                <a href="bali_dance.html" class="button">Baca Selengkapnya</a>
+            </div>
+            <div>
+                <img src="img/2.jpeg" alt="Gambar 2">
+                <a href="#" class="button">Baca Selengkapnya</a>
+            </div>
+            <div>
+                <img src="gambar3.jpg" alt="Gambar 3">
+                <a href="#" class="button">Baca Selengkapnya</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Website Ini. All rights reserved.</p>
+    </footer>
+</body>
+</html>
